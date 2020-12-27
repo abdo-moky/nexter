@@ -428,3 +428,14 @@ body {
   text-align: center;
   margin: auto;
   width: 70%; }
+  .copyright__link:link, .copyright__link:visited {
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 1.5rem;
+    display: inline-block;
+    transition: all .2s; }
+  .copyright__link:hover, .copyright__link:active {
+    background-color: rgba(255, 255, 255, 0.05);
+    transform: translateY(-3px); }
